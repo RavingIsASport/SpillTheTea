@@ -1,0 +1,22 @@
+<div class="flex flex-col place-items-center gap-2 pt-4">
+
+  <h3 class="text-xl font-mono py-4"> Create New Post</h3>
+
+  <form class="flex flex-col place-items-center gap-3" id="postForm">
+    <div>
+      <textarea
+        class="resize-none p-2 w-72 h-36 rounded-md text-sm focus:outline-none"
+        id="post-desc"
+        name="post-desc"
+      ></textarea>
+    </div>
+    <div>
+      <button
+        type="submit"
+        class="bg-emerald-900 px-3 py-1 rounded text-slate-100"
+        id="postBtn"
+      >Post </button>
+    </div>
+  </form>
+</div>
+<script src="./js/newPost.js"></script>

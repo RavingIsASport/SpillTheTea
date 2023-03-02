@@ -1,0 +1,57 @@
+<header class="max-w-lg mx-auto flex justify-center mt-12">
+  <h1 class="text-slate-600 text-5xl font-mono">Not Twitter</h1>
+</header>
+
+<main
+  class="bg-teal-50/70 max-w-sm flex flex-col mx-auto mt-10 p-8 rounded-lg shadow-2xl"
+>
+  <section><p class="text-lg text-center font-mono">Sign In</p></section>
+
+  <section class="mt-4">
+    <form class="login-form">
+      <div class="mb-6 pt-3 bg-slate-300 rounded-md">
+        <label
+          for="email"
+          class="block text-xs text-gray-600 mb-3 ml-2"
+        >Email</label>
+        <input
+          type="text"
+          class="bg-slate-300 rounded w-full focus:outline-none border-b-4 border-slate-400 focus:border-emerald-500 transition duration-500 px-2 pb-2"
+          id="email"
+        />
+      </div>
+
+      <div class="mb-6 pt-3 bg-slate-300 rounded-lg">
+        <label
+          for="password"
+          class="block text-xs text-gray-600 mb-3 ml-2"
+        >Password</label>
+        <input
+          type="password"
+          class="bg-slate-300 rounded w-full focus:outline-none border-b-4 border-slate-400 focus:border-emerald-500 transition duration-500 px-2 pb-2"
+          id="password"
+        />
+      </div>
+
+      <div class="flex justify-end">
+        <a
+          href="#"
+          class="text-sm text-emerald-500 mb-6 hover:text-emerald-700 hover:underline"
+        >Forgot password?</a>
+      </div>
+      <button
+        class="bg-emerald-300 px-4 py-2 rounded-full text-slate-700 font-mono w-full hover:bg-emerald-500 hover:text-slate-100"
+        type="submit"
+      >Login
+
+      </button>
+    </form>
+  </section>
+
+</main>
+<div class="text-sm flex flex-col text-center pt-4">
+  Don't have an account?
+  <a href="/signup" class="hover:underline text-sm">Create Account</a>
+</div>
+
+<script src="./js/login.js"></script>
